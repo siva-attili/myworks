@@ -1,0 +1,56 @@
+.pi-contact-form {
+  margin: 10px;
+}
+#alert {
+  text-align: center;
+  color: green;
+}
+.pi-contact-formgroup {
+  display: grid;
+  grid-template-columns: 20% 30%;
+  grid-gap: 5px;
+  margin: 10px;
+}
+.picontact > input,
+textarea {
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  width: 100%;
+}
+.pi-contact-form-label {
+  padding: 10px;
+  text-align: right;
+}
+.err {
+  border: 1px solid red !important;
+}
+.required,
+.err-msg {
+  color: red;
+  font-size: 12px;
+}
+.pi-contact-submit {
+  margin: 20px;
+}
+.pi-contact-submit > input {
+  width: 100px;
+  margin-left: 20%;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+@media (max-width: 720px) {
+  .pi-contact-formgroup {
+    display: grid;
+    grid-template-columns: 70%;
+    grid-gap: 5px;
+  }
+  .pi-contact-submit > input {
+    margin-left: 0%;
+  }
+  .pi-contact-form-label {
+    padding: 0px;
+    text-align: left;
+  }
+}

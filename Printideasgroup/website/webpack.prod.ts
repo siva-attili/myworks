@@ -1,0 +1,9 @@
+import webpackMerge = require("webpack-merge");
+import webpackCommonConfig from "./webpack.common";
+import webpack = require("webpack");
+
+const webpackProdConfig: webpack.Configuration = {
+  mode: "production"
+};
+
+export default webpackMerge(webpackCommonConfig, webpackProdConfig);
