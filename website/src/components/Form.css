@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+form{
+  margin:20px;
+}
+label {
+  margin: 10px;
+  display: inline-block;
+}
+.btn{
+  margin-left:25%;
+}
+.btn > input{
+    width:25%;
+    margin-top:10px;
+}
+input,
+textarea {
+  width: 100%!important;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+}
+textarea{
+    height:200px;
+}
+/* .row {
+  
+} */
+.col-25 {
+  width: 25%;
+  float: left;
+ }
+.col-75 {
+  width: 75%;
+  float: left;
+ 
+ }
+
+@media (max-width: 719px) {
+  .col-25,
+  .col-75,
+  input {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .btn{
+    margin-left:0%;
+  }
+}
+.err-msg{
+  color:red;
+  margin:5px;
+}
+.required{
+  color:red;
+}

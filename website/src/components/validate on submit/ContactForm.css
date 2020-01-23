@@ -1,0 +1,56 @@
+.pi-contact-form {
+  margin: 10px;
+}
+.pi-contact-formgroup,
+.pi-contact-pnum {
+  display: grid;
+  grid-template-columns: 20% 40%;
+  grid-gap: 10px;
+  margin: 10px;
+}
+.err{
+    border:1px solid red;
+}
+.pi-contact-form-input{
+  box-sizing: border-box;
+}
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  width: 100%;
+}
+label {
+  padding: 10px;
+  text-align: right;
+}
+.required,.err-msg {
+  color: red;
+}
+.pi-contact-submit {
+  margin: 20px;
+}
+.pi-contact-submit > input {
+  width: 100px;
+  margin-left: 20%;
+
+}
+.pi-contact-pnum {
+  grid-template-columns: 40px auto ;
+  margin: 0px;
+}
+
+@media (max-width: 720px) {
+  .pi-contact-formgroup {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  .pi-contact-submit > input {
+    margin-left: 0%;
+  }
+  label {
+    text-align: left;
+  }
+}

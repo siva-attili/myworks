@@ -1,0 +1,22 @@
+.bg{
+    background-image: url(../../../public/images/about-pi.jpg);
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    width:100%;
+    min-height:480px;
+    background-repeat: no-repeat;
+}
+.txt{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:10px;
+    color:red;
+    font-size: 24px;
+}
+.container{
+   width:100%;
+    height:360px;
+}

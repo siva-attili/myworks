@@ -1,0 +1,13 @@
+.dot {
+  width: 20px !important;
+  border-radius: 0 !important;
+  height: 4px !important;
+  border-radius: 2px !important;
+  background: #fff !important;
+}
+.carousel .slide img {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    min-width: 639px;
+}
