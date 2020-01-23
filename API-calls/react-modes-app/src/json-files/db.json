@@ -1,16 +1,36 @@
 {
-  "images": [
+  "data": [
     {
-      "id": 0,
-      "pic": 0
+      "id": 2,
+      "name": "hyd"
+    },
+    {
+      "id": 6,
+      "name": "siva"
+    },
+    {
+      "id": 7,
+      "name": "sony"
+    },
+    {
+      "id": 10,
+      "name": "King"
     },
     {
       "id": 1,
-      "pic": 1
+      "name": "Mahi"
     },
     {
-      "id": 2,
-      "pic": 2
+      "id": 11,
+      "name": "pride"
+    },
+    {
+      "id": 4,
+      "name": "Nani"
+    },
+    {
+      "id": 12,
+      "name": "Queen"
     }
   ]
-} 
+}
