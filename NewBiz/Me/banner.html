@@ -1,0 +1,151 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Header</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="container my-2">
+                <nav class="navbar navbar-expand-md">
+                    <!-- Brand -->
+                    <div class="animated infinite pulse"><a class="navbar-brand" href="#">
+                            <img class="img-fluid" src="../img/logo.png" alt="">
+                        </a></div>
+                    <!-- Links -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon bg-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto main-nav" id="navbarSupportedContent">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services"> Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Team</a>
+                            </li>
+                            <!-- Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    Dropdown
+                                </a>
+                                <div class="dropdown-menu dropdown-content">
+                                    <a class="dropdown-item" href="#">Link 1</a>
+                                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                                        Dropdown
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Link 1</a>
+                                            <a class="dropdown-item" href="#">Link 2</a>
+                                            <a class="dropdown-item" href="#">Link 3</a>
+                                        </div>
+                                    </a>
+
+                                    <a class="dropdown-item" href="#">Link 3</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                </nav>
+
+            </div>
+    </header>
+    <div class="banner">
+        <div class="back-row-toggle splat-toggle">
+            <div class="rain front-row"></div>
+            <div class="rain back-row"></div>
+            <div class="toggles">
+                <div class="splat-toggle toggle active d-none"></div>
+                <div class="back-row-toggle toggle active d-none"><br></div>
+                <div class="single-toggle toggle d-none"></div>
+            </div>
+        </div>
+        <script>var makeItRain = function () {
+                //clear out everything
+                $('.rain').empty();
+
+                var increment = 0;
+                var drops = "";
+                var backDrops = "";
+
+                while (increment < 100) {
+                    //couple random numbers to use for various randomizations
+                    //random number between 98 and 1
+                    var randoHundo = (Math.floor(Math.random() * (98 - 1 + 1) + 1));
+                    //random number between 5 and 2
+                    var randoFiver = (Math.floor(Math.random() * (5 - 2 + 1) + 2));
+                    //increment
+                    increment += randoFiver;
+                    //add in a new raindrop with various randomizations to certain CSS properties
+                    drops += '<div class="drop" style="left: ' + increment + '%; bottom: ' + (randoFiver + randoFiver - 1 + 100) + '%; animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"><div class="stem" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"></div><div class="splat" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"></div></div>';
+                    backDrops += '<div class="drop" style="right: ' + increment + '%; bottom: ' + (randoFiver + randoFiver - 1 + 100) + '%; animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"><div class="stem" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"></div><div class="splat" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"></div></div>';
+                }
+
+                $('.rain.front-row').append(drops);
+                $('.rain.back-row').append(backDrops);
+            }
+
+            $('.splat-toggle.toggle').on('click', function () {
+                $('body').toggleClass('splat-toggle');
+                $('.splat-toggle.toggle').toggleClass('active');
+                makeItRain();
+            });
+
+            $('.back-row-toggle.toggle').on('click', function () {
+                $('body').toggleClass('back-row-toggle');
+                $('.back-row-toggle.toggle').toggleClass('active');
+                makeItRain();
+            });
+
+            $('.single-toggle.toggle').on('click', function () {
+                $('body').toggleClass('single-toggle');
+                $('.single-toggle.toggle').toggleClass('active');
+                makeItRain();
+            });
+
+            makeItRain();</script>
+        <div class="container">
+            <div class=" row ">
+                <div class="col-md-6">
+                    <h2 class="banner-text animated infinite fadeIN">We provide<br><span>solutions</span><br>for
+                        your business!</h2>
+                    <div>
+                        <a href="#about" class="btn-get-started scrollto animated infinite pulse">Get Started</a>
+                        <a href="#services" class="btn-services scrollto animated infinite pulse">Our Services</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="ban-inner-img" src="../img/intro-img.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
