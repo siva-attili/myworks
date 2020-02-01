@@ -1,0 +1,22 @@
+{
+    "card":[
+        {
+            "id":1,
+            "img":"vision",
+            "title":"Vision",
+            "text":"To be a model of excellence for solving complex educational problems."
+        },
+        {
+            "id":2,
+            "img":"mission",
+            "title":"Mission",
+            "text":"Our responsibility is to prepare every student for success in college, career, and their life."
+        },
+        {
+            "id":3,
+            "img":"values",
+            "title":"Values",
+            "text":"We are dedicated to helping you achieve your goals by flexible programs."
+        }
+    ]
+}

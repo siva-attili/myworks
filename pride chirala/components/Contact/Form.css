@@ -1,0 +1,8 @@
+.btn-light{
+    border-color:#adadad !important;
+}
+@media(max-width:576px){
+    .text-right{
+        text-align:left !important;
+    }
+}

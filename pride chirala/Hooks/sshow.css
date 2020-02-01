@@ -1,0 +1,26 @@
+img {
+  width: 100%;
+}
+.react-slideshow-container .nav {
+  display: none !important;
+}
+.fade-container {
+  position: relative;
+  text-align: center;
+}
+.indicators {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.indicators div {
+  width: 20px !important;
+  border-radius: 0 !important;
+  height: 8px !important;
+  background: black !important;
+}
+.indicators>.active {
+  background: white !important;
+}

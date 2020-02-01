@@ -1,0 +1,42 @@
+{
+    "form":[
+        {
+            "id":"cf1",
+            "lclass":"col-sm-2 text-right pr-4",
+            "label":"Name:",
+            "fctrl":"col-sm-10",
+            "type":"text",
+            "placeholder":"Enter Name"
+            
+        },
+        {
+            "id":"cf2",
+            "lclass":"col-sm-2 text-right pr-4",
+            "label":"Email:",
+            "fctrl":"col-sm-10",
+            "type":"email",
+            "placeholder":"Enter Email"
+            
+        },
+        {
+            "id":"cf3",
+            "lclass":"col-sm-2 text-right pr-4",
+            "label":"Phone:",
+            "fctrl":"col-sm-10",
+            "type":"text",
+            "placeholder":"Enter Mobile [LandLine] Number"
+            
+        },
+        {
+            "id":"cf4",
+            "lclass":"col-sm-2 text-right pr-4",
+            "label":"Comments:",
+            "fctrl":"col-sm-10",
+            "type":"text",
+            "placeholder":"Enter Your query",
+            "row":3,
+            "as":"textarea"
+            
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+.bg-light{
+    background-color: #ffffff !important;
+}
+.pride {
+    font-family: Times New Roman, Times;
+    font-size: 45px;
+    text-align: right;
+    color: #fca200;
+    position: relative;
+    top: 2%;
+    left: -8px;
+  }
+  .int-school {
+    font-family: Arial;
+    font-size: 16px;
+    text-align: right;
+    color: #515151;
+    height: 5px;
+    position: relative;
+    top: -10px;
+    left: -9px;
+  }
+  .pc-menu {
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+    font-family: Arial;
+    font-size: 15px;
+    margin: 15px 2px 0px 2px;
+    padding: 4px 11px;
+  }
+  .pc-menu0 {
+    background-color: #75757e;
+  }

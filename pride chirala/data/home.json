@@ -1,0 +1,105 @@
+{
+  "header":[
+    {
+        "id":1,
+        "page":"About"
+    },
+    {
+        "id":2,
+        "page":"Campus"
+    },
+    {
+        "id":3,
+        "page":"Admissions"
+    },
+    {
+        "id":4,
+        "page":"Gallery"
+    },
+    {
+        "id":5,
+        "page":"Contact"
+    }
+],
+  "carousel": [
+    {
+      "id": 0,
+      "pic": 0,
+      "caption": " Study, because they can never take it away from you."
+    },
+    {
+      "id": 1,
+      "pic": 1,
+      "caption": " Science! if you have the conditions, you get the result."
+    },
+    {
+      "id": 2,
+      "pic": 2,
+      "caption": " We create light through knowledge, students will find the way."
+    },
+    { "id": 3, "pic": 3, "caption": "We provide what students will like!" },
+    { "id": 4, "pic": 4, "caption": "We develop a passion for learning." }
+  ],
+  "slides": [
+    {
+      "id": 1,
+      "slide": "01"
+    },
+    {
+      "id": 2,
+      "slide": "02"
+    },
+    {
+      "id": 3,
+      "slide": "03"
+    },
+    {
+      "id": 4,
+      "slide": "04"
+    },
+    {
+      "id": 5,
+      "slide": "05"
+    },
+    {
+      "id": 6,
+      "slide": "06"
+    },
+    {
+      "id": 7,
+      "slide": "07"
+    },
+    {
+      "id": 8,
+      "slide": "08"
+    },
+    {
+      "id": 9,
+      "slide": "09"
+    },
+    {
+      "id": 10,
+      "slide": "10"
+    }
+  ],
+  "card": [
+    {
+      "id": 1,
+      "img": "vision",
+      "title": "Vision",
+      "text": "To be a model of excellence for solving complex educational problems."
+    },
+    {
+      "id": 2,
+      "img": "mission",
+      "title": "Mission",
+      "text": "Our responsibility is to prepare every student for success in college, career, and their life."
+    },
+    {
+      "id": 3,
+      "img": "values",
+      "title": "Values",
+      "text": "We are dedicated to helping you achieve your goals by flexible programs."
+    }
+  ]
+}

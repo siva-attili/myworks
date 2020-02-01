@@ -1,0 +1,24 @@
+{
+    "header":[
+        {
+            "id":1,
+            "page":"About"
+        },
+        {
+            "id":2,
+            "page":"Campus"
+        },
+        {
+            "id":3,
+            "page":"Admissions"
+        },
+        {
+            "id":4,
+            "page":"Gallery"
+        },
+        {
+            "id":5,
+            "page":"Contact"
+        }
+    ]
+}

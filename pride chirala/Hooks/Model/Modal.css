@@ -1,0 +1,33 @@
+.Modal {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    background-color: papayawhip;
+    transform: translate(-50%,-50%);
+    
+  }
+ 
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rebeccapurple;
+  }
+  .grid{
+    display: grid ;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap:5px;
+  }
+  .grid-item{
+    border:solid white 5px;
+
+  }
+  
+  img{
+    width:100%;
+  }

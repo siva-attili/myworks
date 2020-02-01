@@ -1,0 +1,35 @@
+.pc-vmv {
+    
+   text-align: center;
+   color: white;
+    
+  }
+  .pc-vmv > h4 {
+    font-size: 24px;
+  }
+  .pc-vision {
+    background-color: #00a2e1;
+  }
+  .pc-mission {
+    background-color: #fca200;
+  }
+  .pc-values {
+    background-color: #90c63f;
+  }
+  .card-title{
+    font-size:24px;
+    padding-left:15px;
+  }
+  /* upto 767 width */
+  @media (max-width: 767px) {
+    .pc-vmv {
+       width: 100%;
+    }
+   }
+   @media (min-width:768px){
+.row{
+  flex-wrap:nowrap !important;
+}
+   }
+   
+  

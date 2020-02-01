@@ -1,0 +1,26 @@
+img{
+    width:100%;
+}
+.carousel_dot-group{
+    width:100%;
+    position: absolute;
+    bottom:77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*radio buttons
+/* button{
+    border-radius:50%;
+    padding:5px;
+    margin:1px;
+} */
+button{
+width:20px;
+margin:10px;
+height:4px;
+   
+}
+button,select{
+   color:black !important;
+   
+}
